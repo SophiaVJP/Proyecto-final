@@ -1,0 +1,41 @@
+    1  setx HOME "%USERPROFILE%"
+    2  exit
+    3  #!/bin/sh
+    4  #This script is intended for launch on *nix machines
+    5  #-Xmx8g indicates 8 gb of memory.
+    6  #To adjust this (or other Java options), edit the "$HOME/.igv/java_arguments" 
+    7  #file.  For more info, see the README at 
+    8  #https://raw.githubusercontent.com/igvteam/igv/master/scripts/readme.txt 
+    9  #Add the flag -Ddevelopment = true to use features still in development
+   10  #Add the flag -Dsun.java2d.uiScale=2 for HiDPI displays
+   11  prefix=`dirname $(readlink -f $0 || echo $0)`
+   12  # Check whether or not to use the bundled JDK
+   13  if [ -d "${prefix}/jdk-17" ]; then     echo echo "Using bundled JDK.";     JAVA_HOME="${prefix}/jdk-17";     PATH=$JAVA_HOME/bin:$PATH; else     echo "Using system JDK. IGV requires Java 17."; fi
+   14  # Report on Java version
+   15  java -version
+   16  # Check if there is a user-specified Java arguments file
+   17  if [ -e "$HOME/.igv/java_arguments" ]; then     java --module-path="${prefix}/lib" -Xmx8g         @"${prefix}/igv.args"         -Dapple.laf.useScreenMenuBar=true         -Djava.net.preferIPv4Stack=true         -Djava.net.useSystemProxies=true         @"$HOME/.igv/java_arguments"         --module=org.igv/org.broad.igv.ui.Main "$@"; else     java --module-path="${prefix}/lib" -Xmx8g         @"${prefix}/igv.args"         -Dapple.laf.useScreenMenuBar=true         -Djava.net.preferIPv4Stack=true         -Djava.net.useSystemProxies=true         --module=org.igv/org.broad.igv.ui.Main "$@"; fi
+   18  pwd
+   19  cd OneDrive/
+   20  ls
+   21  cd Escritorio/
+   22  ls
+   23  cd Bioinformática/
+   24  ls
+   25  cd Proyecto\ final/
+   26  ls
+   27  cd data/
+   28  $IQTREE -s sec.ali.fasta -B 1000
+   29  $IQTREE -s secali.fasta -B 1000
+   30  ls
+   31  $IQTREE -s secuencia.fasta -B 1000 
+   32  $IQTREE -s secali.fasta,log -B 1000
+   33  $IQTREE -s secali.fasta.log -B 1000
+   34  $IQTREE -s secali.fasta -B 1000
+   35  $IQTREE -s secuencia.fasta -B 1000
+   36  ls
+   37  $IQTREE -s sec_ali.fasta -B 1000
+   38  ls
+   39  $IQTREE -s ali.fasta -B 1000
+   40  history 100000 > GitHub.txt
+   
