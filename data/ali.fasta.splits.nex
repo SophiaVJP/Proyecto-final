@@ -1,0 +1,38 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=8;
+TAXLABELS
+[1] 'Bombina_bombina'
+[2] 'Pseudophryne_corroboree'
+[3] 'Rana_temporaria'
+[4] 'Bufo_bufo'
+[5] 'Nanorana_parkeri'
+[6] 'Hyla_sarda'
+[7] 'Bufo_gargarizans'
+[8] 'Xenopus_tropicalis'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=8 nsplits=15;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 5,
+	100	 3 5,
+	97	 2 3 5,
+	100	 4,
+	100	 7,
+	100	 4 7,
+	100	 6,
+	100	 4 6 7,
+	100	 1 8,
+	100	 8,
+	100	 1,
+	3	 1 3 5 8,
+	1	 1 2 8,
+;
+END; [Splits]
+
