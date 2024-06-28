@@ -23,7 +23,7 @@ Las ranas del Ecuador juegan un papel crucial en sus ecosistemas, controlando po
 3. Se corrió IQtree para la lectura de las secuencias alineadas y se descarga el script.
 4. Se usó el script en FigTree para su visualización y personalización.
 
-#### Filogenia final
+### Filogenia final
 
 ![resultado1](https://github.com/SophiaVJP/Proyecto-final/assets/173955900/8d4f4412-f74a-4250-8532-0fe3d4859ef0)
 
