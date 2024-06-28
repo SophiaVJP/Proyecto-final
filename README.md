@@ -12,7 +12,9 @@ Ecuador, con su biodiversidad excepcional, alberga más de 550 especies de ranas
 
 Las ranas del Ecuador juegan un papel crucial en sus ecosistemas, controlando poblaciones de insectos y actuando como indicadores de la salud ambiental. Sin embargo, enfrentan amenazas significativas debido a la deforestación, la expansión agrícola, la contaminación y el cambio climático, además de la quitridiomicosis, una enfermedad fúngica. Los esfuerzos de conservación son esenciales para proteger a estas especies únicas y su hábitat.
 
+
 ![image](https://github.com/SophiaVJP/Proyecto-final/assets/173955900/b7592a0e-176a-4767-bba8-159b70e16f2f)
+
 
 #### Pasos del proyecto
 
