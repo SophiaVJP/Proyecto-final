@@ -25,6 +25,17 @@
    25  cd Proyecto\ final/
    26  ls
    27  cd data/
-   28  ls
-   29  history 100000 > GitHub.txt
-   30  history > Sophia.txt
+   28  $IQTREE -s sec.ali.fasta -B 1000
+   29  $IQTREE -s secali.fasta -B 1000
+   30  ls
+   31  $IQTREE -s secuencia.fasta -B 1000 
+   32  $IQTREE -s secali.fasta,log -B 1000
+   33  $IQTREE -s secali.fasta.log -B 1000
+   34  $IQTREE -s secali.fasta -B 1000
+   35  $IQTREE -s secuencia.fasta -B 1000
+   36  ls
+   37  $IQTREE -s sec_ali.fasta -B 1000
+   38  ls
+   39  $IQTREE -s ali.fasta -B 1000
+   40  history 100000 > GitHub.txt
+   
