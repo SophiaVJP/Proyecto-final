@@ -2,7 +2,7 @@
 
 #### Sophia Jiménez (svjimenezp@puce.edu.ec)
 
-#### Introducción
+### Introducción
 
 Las ranas tropicales habitan en las cálidas y húmedas selvas de América Central y del Sur, África, y el sudeste asiático. Son conocidas por su diversidad de colores y comportamientos. Estas ranas juegan un papel crucial en sus ecosistemas al controlar poblaciones de insectos y actuar como indicadores de la salud ambiental. Sin embargo, enfrentan amenazas como la deforestación y el cambio climático, lo que resalta la necesidad de esfuerzos de conservación para protegerlas y preservar sus hábitats.
 
