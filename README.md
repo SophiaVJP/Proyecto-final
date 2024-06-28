@@ -2,11 +2,11 @@
 
 #### Sophia Jiménez (svjimenezp@puce.edu.ec)
 
-### Introducción
+## Introducción
 
 Las ranas tropicales habitan en las cálidas y húmedas selvas de América Central y del Sur, África, y el sudeste asiático. Son conocidas por su diversidad de colores y comportamientos. Estas ranas juegan un papel crucial en sus ecosistemas al controlar poblaciones de insectos y actuar como indicadores de la salud ambiental. Sin embargo, enfrentan amenazas como la deforestación y el cambio climático, lo que resalta la necesidad de esfuerzos de conservación para protegerlas y preservar sus hábitats.
 
-#### Ranas del Ecuador
+### Ranas del Ecuador
 
 Ecuador, con su biodiversidad excepcional, alberga más de 550 especies de ranas, muchas de ellas endémicas. Estas ranas se encuentran en diversos hábitats, desde las selvas amazónicas hasta los páramos andinos. Entre las especies destacadas están la rana de cristal, con su piel transparente, y la rana dardo venenoso, famosa por sus colores brillantes y toxinas.
 
