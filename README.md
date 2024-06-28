@@ -16,7 +16,7 @@ Las ranas del Ecuador juegan un papel crucial en sus ecosistemas, controlando po
 ![image](https://github.com/SophiaVJP/Proyecto-final/assets/173955900/b7592a0e-176a-4767-bba8-159b70e16f2f)
 
 
-### Pasos del proyecto
+## Pasos del proyecto
 
 1. Se obtuvieron las secuencias genéticas de NCBI en formato FASTA para su posterior uso.
 2. Se alinearon las secuencias en muscle.
@@ -27,6 +27,6 @@ Las ranas del Ecuador juegan un papel crucial en sus ecosistemas, controlando po
 
 ![resultado1](https://github.com/SophiaVJP/Proyecto-final/assets/173955900/8d4f4412-f74a-4250-8532-0fe3d4859ef0)
 
-#### Referencias:
+### Referencias:
 Womack, M. C., Steigerwald, E., Blackburn, D., Cannatella, D. C., Catenazzi, A., Che, J., ... & Tarvin, R. D. (2021). State of Amphibia 2020: five years of amphibian research, diversity and resources.
 
